@@ -26,4 +26,5 @@ npx playwright test
 - Happy Path : Test Checks for Different Investment Duration : 5 Years.
 - Boundary Condition : Minium 3 Years , Maximum : 10 Years , Lower Boundry Condition : 1 year , Out of Boundry Condition : 12 Year.
 - Negative Input Value for Tests: -500, 500 and 2000000.
+- Note : This test won't run since there is no base url / ENV to run against , they are based on screenshot provided
 - Performance Test : We can run 100 threads (concurrent hits to the endpoint) for getting Projected account value , this way we can validate the Backend returning correct calcuated values

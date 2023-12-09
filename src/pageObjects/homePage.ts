@@ -22,6 +22,7 @@ export class HomePage {
     }
 
     async moveIntersetRate(rate) {
+        // This will need more fine tuning after running it against application couple of times
         console.log('Move Intreset Rate');
         const s = await this.page.$("span:nth-child(2)")
         let ele = this.page.locator(".absolute top-4 text-link-x-small.text-action-blue-l4 whitespace-nowrap")
